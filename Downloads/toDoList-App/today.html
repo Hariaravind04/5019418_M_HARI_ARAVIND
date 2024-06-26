@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Today</title>
+    <link rel="stylesheet" href="./styles/todo.css">
+</head>
+<body>
+    <header>
+        <h3 class="name"><em>👤 Hari aravind</em></h3>
+        <h1 class="title"><em>TO DO LIST</em></h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/home.html">🏠 HOME</a></li>
+            <li><a href="/inbox.html">✉️ INBOX</a></li>
+            <li><a href="/today.html">📆 TODAY</a></li>
+        </ul>
+    </nav>
+    <form>
+        <div class="todo-container">
+            <div class="todo-input-container">
+                <input type="text" id="task-input" placeholder="Add a new task...">
+                <input type="time" id="task-time">
+                <button type="button" id="today" onclick="addTask()">Add Task</button>
+            </div>
+            <ul id="task-list"></ul>
+        </div>
+    </form>
+    <script src="./script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Inbox</title>
+    <link rel="stylesheet" href="./styles/todo.css">
+</head>
+<body>
+    <header>
+        <h3 class="name"><em>👤 Hari aravind</em></h3>
+        <h1 class="title"><em>TO DO LIST</em></h1>
+    </header>
+    <nav>
+        <ul class="navi">
+        <li><a href="/home.html">🏠 HOME</a></li>
+        <li><a href="/inbox.html">✉️ INBOX</a></li>
+        <li><a href="/today.html">📆 TODAY</a></li>
+        </ul>  
+    </nav>
+    
+    <form class="priority">
+     <h1>Prioritize your tasks</h1>
+     <br>
+     <br>
+    <input type="text" id="myInput" placeholder="Add Task...">
+    <button id="button1" type="button" onclick="newElement()">Add</button>
+    <div class="addbt">
+    <ul>
+        <li class="dropdown">
+            <div id="dropdownContainer"></div>
+        </li>  
+    </ul>   
+</div>    
+    </form>
+    <script src="./script/inbox.js">
+    </script>
+</body>
+</html>
