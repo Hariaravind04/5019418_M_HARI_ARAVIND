@@ -1,0 +1,18 @@
+{
+  "name": "medical-assiatant-python-flask-main",
+  "version": "1.0.0",
+  "description": "# Prerequisite 1. Html/css/javascript 2. Basic python 3. Python flask frame work 4. My sql commands  5. php Myadmin",
+  "main": "app1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1"
+  }
+}
